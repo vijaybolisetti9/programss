@@ -4,7 +4,9 @@
 #include<string.h>
 
 
-//as array itself is a base adress and in arrays elements are stored in consecutive order ,by increasing the pointer variable (as base type of pointer is int it access four bytes of memory from base adress and ptr++ means access memory after four consecutive bytes) we can print all the elements in array.
+//as array itself is a base adress and in arrays elements are stored in consecutive order ,
+by increasing the pointer variable (as base type of pointer is int it access four bytes of memory from base adress
+and ptr++ means access memory after four consecutive bytes) we can print all the elements in array.
 
 int main(){
 	int a=10,b=5,*ptr,i;
